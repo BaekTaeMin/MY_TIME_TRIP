@@ -4,7 +4,7 @@ public class TodoItemVO {
     private int cno;
     private String title;
     private String content;
-    private String toDate;
+    private String writeDate;
 
     public TodoItemVO(){};
 
@@ -32,11 +32,11 @@ public class TodoItemVO {
         this.content = content;
     }
 
-    public String getToDate() {
-        return toDate;
+    public String getWriteDate() {
+        return writeDate;
     }
 
-    public void setToDate(String toDate) {
-        this.toDate = toDate;
+    public void setWriteDate(String writeDate) {
+        this.writeDate = writeDate;
     }
 }
